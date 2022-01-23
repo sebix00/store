@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const { port } = require("./db/confing");
+const { port } = require("./db/config");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 
